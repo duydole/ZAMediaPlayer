@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC659E5322F964F600D3FAC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC659E5222F964F600D3FAC7 /* AppDelegate.m */; };
+		EC659E5622F964F600D3FAC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC659E5522F964F600D3FAC7 /* ViewController.m */; };
+		EC659E5922F964F600D3FAC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC659E5722F964F600D3FAC7 /* Main.storyboard */; };
+		EC659E5B22F964F800D3FAC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC659E5A22F964F800D3FAC7 /* Assets.xcassets */; };
+		EC659E5E22F964F800D3FAC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC659E5C22F964F800D3FAC7 /* LaunchScreen.storyboard */; };
+		EC659E6122F964F800D3FAC7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC659E6022F964F800D3FAC7 /* main.m */; };
+		EC659E6B22F964F800D3FAC7 /* ZAMediaPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC659E6A22F964F800D3FAC7 /* ZAMediaPlayerTests.m */; };
+		EC659E7622F964F800D3FAC7 /* ZAMediaPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC659E7522F964F800D3FAC7 /* ZAMediaPlayerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC659E6722F964F800D3FAC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC659E4622F964F600D3FAC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC659E4D22F964F600D3FAC7;
+			remoteInfo = ZAMediaPlayer;
+		};
+		EC659E7222F964F800D3FAC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC659E4622F964F600D3FAC7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC659E4D22F964F600D3FAC7;
+			remoteInfo = ZAMediaPlayer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC659E4E22F964F600D3FAC7 /* ZAMediaPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZAMediaPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC659E5122F964F600D3FAC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC659E5222F964F600D3FAC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC659E5422F964F600D3FAC7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC659E5522F964F600D3FAC7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC659E5822F964F600D3FAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC659E5A22F964F800D3FAC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC659E5D22F964F800D3FAC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC659E5F22F964F800D3FAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC659E6022F964F800D3FAC7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC659E6622F964F800D3FAC7 /* ZAMediaPlayerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZAMediaPlayerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC659E6A22F964F800D3FAC7 /* ZAMediaPlayerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAMediaPlayerTests.m; sourceTree = "<group>"; };
+		EC659E6C22F964F800D3FAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC659E7122F964F800D3FAC7 /* ZAMediaPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZAMediaPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC659E7522F964F800D3FAC7 /* ZAMediaPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZAMediaPlayerUITests.m; sourceTree = "<group>"; };
+		EC659E7722F964F800D3FAC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC659E4B22F964F600D3FAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC659E6322F964F800D3FAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC659E6E22F964F800D3FAC7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC659E4522F964F600D3FAC7 = {
+			isa = PBXGroup;
+			children = (
+				EC659E5022F964F600D3FAC7 /* ZAMediaPlayer */,
+				EC659E6922F964F800D3FAC7 /* ZAMediaPlayerTests */,
+				EC659E7422F964F800D3FAC7 /* ZAMediaPlayerUITests */,
+				EC659E4F22F964F600D3FAC7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC659E4F22F964F600D3FAC7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC659E4E22F964F600D3FAC7 /* ZAMediaPlayer.app */,
+				EC659E6622F964F800D3FAC7 /* ZAMediaPlayerTests.xctest */,
+				EC659E7122F964F800D3FAC7 /* ZAMediaPlayerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC659E5022F964F600D3FAC7 /* ZAMediaPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				EC659E5122F964F600D3FAC7 /* AppDelegate.h */,
+				EC659E5222F964F600D3FAC7 /* AppDelegate.m */,
+				EC659E5422F964F600D3FAC7 /* ViewController.h */,
+				EC659E5522F964F600D3FAC7 /* ViewController.m */,
+				EC659E5722F964F600D3FAC7 /* Main.storyboard */,
+				EC659E5A22F964F800D3FAC7 /* Assets.xcassets */,
+				EC659E5C22F964F800D3FAC7 /* LaunchScreen.storyboard */,
+				EC659E5F22F964F800D3FAC7 /* Info.plist */,
+				EC659E6022F964F800D3FAC7 /* main.m */,
+			);
+			path = ZAMediaPlayer;
+			sourceTree = "<group>";
+		};
+		EC659E6922F964F800D3FAC7 /* ZAMediaPlayerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC659E6A22F964F800D3FAC7 /* ZAMediaPlayerTests.m */,
+				EC659E6C22F964F800D3FAC7 /* Info.plist */,
+			);
+			path = ZAMediaPlayerTests;
+			sourceTree = "<group>";
+		};
+		EC659E7422F964F800D3FAC7 /* ZAMediaPlayerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC659E7522F964F800D3FAC7 /* ZAMediaPlayerUITests.m */,
+				EC659E7722F964F800D3FAC7 /* Info.plist */,
+			);
+			path = ZAMediaPlayerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC659E4D22F964F600D3FAC7 /* ZAMediaPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC659E7A22F964F800D3FAC7 /* Build configuration list for PBXNativeTarget "ZAMediaPlayer" */;
+			buildPhases = (
+				EC659E4A22F964F600D3FAC7 /* Sources */,
+				EC659E4B22F964F600D3FAC7 /* Frameworks */,
+				EC659E4C22F964F600D3FAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZAMediaPlayer;
+			productName = ZAMediaPlayer;
+			productReference = EC659E4E22F964F600D3FAC7 /* ZAMediaPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC659E6522F964F800D3FAC7 /* ZAMediaPlayerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC659E7D22F964F800D3FAC7 /* Build configuration list for PBXNativeTarget "ZAMediaPlayerTests" */;
+			buildPhases = (
+				EC659E6222F964F800D3FAC7 /* Sources */,
+				EC659E6322F964F800D3FAC7 /* Frameworks */,
+				EC659E6422F964F800D3FAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC659E6822F964F800D3FAC7 /* PBXTargetDependency */,
+			);
+			name = ZAMediaPlayerTests;
+			productName = ZAMediaPlayerTests;
+			productReference = EC659E6622F964F800D3FAC7 /* ZAMediaPlayerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC659E7022F964F800D3FAC7 /* ZAMediaPlayerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC659E8022F964F800D3FAC7 /* Build configuration list for PBXNativeTarget "ZAMediaPlayerUITests" */;
+			buildPhases = (
+				EC659E6D22F964F800D3FAC7 /* Sources */,
+				EC659E6E22F964F800D3FAC7 /* Frameworks */,
+				EC659E6F22F964F800D3FAC7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC659E7322F964F800D3FAC7 /* PBXTargetDependency */,
+			);
+			name = ZAMediaPlayerUITests;
+			productName = ZAMediaPlayerUITests;
+			productReference = EC659E7122F964F800D3FAC7 /* ZAMediaPlayerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC659E4622F964F600D3FAC7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = vng;
+				TargetAttributes = {
+					EC659E4D22F964F600D3FAC7 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					EC659E6522F964F800D3FAC7 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = EC659E4D22F964F600D3FAC7;
+					};
+					EC659E7022F964F800D3FAC7 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = EC659E4D22F964F600D3FAC7;
+					};
+				};
+			};
+			buildConfigurationList = EC659E4922F964F600D3FAC7 /* Build configuration list for PBXProject "ZAMediaPlayer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC659E4522F964F600D3FAC7;
+			productRefGroup = EC659E4F22F964F600D3FAC7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC659E4D22F964F600D3FAC7 /* ZAMediaPlayer */,
+				EC659E6522F964F800D3FAC7 /* ZAMediaPlayerTests */,
+				EC659E7022F964F800D3FAC7 /* ZAMediaPlayerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC659E4C22F964F600D3FAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC659E5E22F964F800D3FAC7 /* LaunchScreen.storyboard in Resources */,
+				EC659E5B22F964F800D3FAC7 /* Assets.xcassets in Resources */,
+				EC659E5922F964F600D3FAC7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC659E6422F964F800D3FAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC659E6F22F964F800D3FAC7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC659E4A22F964F600D3FAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC659E5622F964F600D3FAC7 /* ViewController.m in Sources */,
+				EC659E6122F964F800D3FAC7 /* main.m in Sources */,
+				EC659E5322F964F600D3FAC7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC659E6222F964F800D3FAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC659E6B22F964F800D3FAC7 /* ZAMediaPlayerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC659E6D22F964F800D3FAC7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC659E7622F964F800D3FAC7 /* ZAMediaPlayerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC659E6822F964F800D3FAC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC659E4D22F964F600D3FAC7 /* ZAMediaPlayer */;
+			targetProxy = EC659E6722F964F800D3FAC7 /* PBXContainerItemProxy */;
+		};
+		EC659E7322F964F800D3FAC7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC659E4D22F964F600D3FAC7 /* ZAMediaPlayer */;
+			targetProxy = EC659E7222F964F800D3FAC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC659E5722F964F600D3FAC7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC659E5822F964F600D3FAC7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC659E5C22F964F800D3FAC7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC659E5D22F964F800D3FAC7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC659E7822F964F800D3FAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC659E7922F964F800D3FAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC659E7B22F964F800D3FAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZAMediaPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vng.ZAMediaPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC659E7C22F964F800D3FAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZAMediaPlayer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vng.ZAMediaPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC659E7E22F964F800D3FAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZAMediaPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vng.ZAMediaPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZAMediaPlayer.app/ZAMediaPlayer";
+			};
+			name = Debug;
+		};
+		EC659E7F22F964F800D3FAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZAMediaPlayerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vng.ZAMediaPlayerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZAMediaPlayer.app/ZAMediaPlayer";
+			};
+			name = Release;
+		};
+		EC659E8122F964F800D3FAC7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZAMediaPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vng.ZAMediaPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZAMediaPlayer;
+			};
+			name = Debug;
+		};
+		EC659E8222F964F800D3FAC7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZAMediaPlayerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = vng.ZAMediaPlayerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZAMediaPlayer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC659E4922F964F600D3FAC7 /* Build configuration list for PBXProject "ZAMediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC659E7822F964F800D3FAC7 /* Debug */,
+				EC659E7922F964F800D3FAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC659E7A22F964F800D3FAC7 /* Build configuration list for PBXNativeTarget "ZAMediaPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC659E7B22F964F800D3FAC7 /* Debug */,
+				EC659E7C22F964F800D3FAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC659E7D22F964F800D3FAC7 /* Build configuration list for PBXNativeTarget "ZAMediaPlayerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC659E7E22F964F800D3FAC7 /* Debug */,
+				EC659E7F22F964F800D3FAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC659E8022F964F800D3FAC7 /* Build configuration list for PBXNativeTarget "ZAMediaPlayerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC659E8122F964F800D3FAC7 /* Debug */,
+				EC659E8222F964F800D3FAC7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC659E4622F964F600D3FAC7 /* Project object */;
+}
